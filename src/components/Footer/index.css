@@ -1,1 +1,13 @@
-/* Write your CSS here */
+.footer-bg-container {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  background-color: #cbd5e1;
+}
+
+.footer-text {
+  color: #64748b;
+  font-size: 3rem;
+  font-weight: 600;
+}
