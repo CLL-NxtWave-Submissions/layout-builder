@@ -34,7 +34,7 @@ class App extends Component {
     const {showContent, showLeftNavbar, showRightNavbar} = this.state
 
     return (
-      <div>
+      <div className="app-bg-container">
         <ConfigurationContext.Provider
           value={{
             showContent,
