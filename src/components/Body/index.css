@@ -1,1 +1,65 @@
-/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.left-navbar-container,
+.content-container,
+.right-navbar-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 3rem 2rem;
+  color: #475569;
+  margin: 0;
+}
+
+.left-navbar-container,
+.right-navbar-container {
+  background-color: #e2e8f0;
+}
+
+.content-container {
+  background-color: #f1f5f9;
+}
+
+.body-container-section-header {
+  color: #475569;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.body-container-section-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.body-container-section-list-item {
+  margin-bottom: 1rem;
+}
+
+.body-container-section-ad-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem solid #475569;
+  width: 100%;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+.body-container-section-text {
+  color: #475569;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .body-container {
+    flex-direction: row;
+  }
+}
