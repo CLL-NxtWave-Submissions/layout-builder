@@ -2,9 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   margin-bottom: 0.5rem;
   width: 100%;
+  height: 100vh;
+  min-height: 100%;
 }
 
 .left-navbar-container,
@@ -16,6 +18,8 @@
   padding: 3rem 2rem;
   color: #475569;
   margin: 0;
+  width: 100%;
+  height: 100vh;
 }
 
 .left-navbar-container,
@@ -25,6 +29,7 @@
 
 .content-container {
   background-color: #f1f5f9;
+  flex-grow: 1;
 }
 
 .body-container-section-header {
@@ -61,5 +66,12 @@
 @media (min-width: 768px) {
   .body-container {
     flex-direction: row;
+  }
+
+  .left-navbar-container,
+  .content-container,
+  .right-navbar-container {
+    width: 33%;
+    height: 100vh;
   }
 }
