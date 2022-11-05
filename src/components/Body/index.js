@@ -51,10 +51,10 @@ const Body = () => (
               <h1 className="body-container-section-header">Right Navbar</h1>
               <ul className="body-container-section-list">
                 <li key="Ad 1" className="body-container-section-ad-list-item">
-                  <p className="body-container-section-text">Ad 1</p>
+                  <p className="body-container-section-ad-text">Ad 1</p>
                 </li>
                 <li key="Ad 2" className="body-container-section-ad-list-item">
-                  <p className="body-container-section-text">Ad 2</p>
+                  <p className="body-container-section-ad-text">Ad 2</p>
                 </li>
               </ul>
             </div>

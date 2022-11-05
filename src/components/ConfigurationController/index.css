@@ -12,6 +12,7 @@
   color: #f1f5f9;
   font-size: 3rem;
   font-weight: 600;
+  margin-bottom: 0rem;
 }
 
 .configuration-controller-options-list {
@@ -27,7 +28,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 0.5rem 0;
+  margin: 0.75rem 0;
 }
 
 .configuration-controller-option-checkbox {

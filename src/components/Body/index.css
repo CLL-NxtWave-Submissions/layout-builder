@@ -14,7 +14,8 @@
 .right-navbar-container {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  align-items: center;
+  text-align: center;
   padding: 3rem 2rem;
   color: #475569;
   margin: 0;
@@ -37,16 +38,24 @@
   color: #475569;
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .body-container-section-list {
   list-style-type: none;
   padding-left: 0;
+  padding-top: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .body-container-section-list-item {
-  margin-bottom: 1rem;
+  margin: 0 0.25rem 0.25rem 0.25rem;
 }
 
 .body-container-section-ad-list-item {
@@ -54,14 +63,20 @@
   justify-content: center;
   align-items: center;
   border: 0.1rem solid #475569;
-  width: 100%;
+  width: 40%;
   padding: 2rem;
-  margin: 1rem 0;
+  margin: 0.5rem;
 }
 
-.body-container-section-text {
+.body-container-section-text,
+.body-container-section-ad-text {
   color: #475569;
   font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.body-container-section-ad-text {
+  margin: auto;
 }
 
 @media (min-width: 768px) {
@@ -74,5 +89,31 @@
   .right-navbar-container {
     width: 33%;
     height: 100vh;
+    align-items: stretch;
+    text-align: left;
+  }
+
+  .body-container-section-header {
+    margin-bottom: 0.75rem;
+  }
+
+  .body-container-section-list {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0;
+  }
+
+  .body-container-section-list-item {
+    margin: 0.2rem 0;
+  }
+
+  .body-container-section-text {
+    margin: 0.5rem 0;
+  }
+
+  .body-container-section-ad-list-item {
+    margin: 1rem 0;
+    width: 100%;
   }
 }
