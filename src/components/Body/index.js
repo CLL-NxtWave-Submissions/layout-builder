@@ -15,16 +15,16 @@ const Body = () => (
                 Left Navbar Menu
               </h1>
               <ul className="body-container-section-list">
-                <li className="body-container-section-list-item">
+                <li key="Item 1" className="body-container-section-list-item">
                   <p className="body-container-section-text">Item 1</p>
                 </li>
-                <li className="body-container-section-list-item">
+                <li key="Item 2" className="body-container-section-list-item">
                   <p className="body-container-section-text">Item 2</p>
                 </li>
-                <li className="body-container-section-list-item">
+                <li key="Item 3" className="body-container-section-list-item">
                   <p className="body-container-section-text">Item 3</p>
                 </li>
-                <li className="body-container-section-list-item">
+                <li key="Item 4" className="body-container-section-list-item">
                   <p className="body-container-section-text">Item 4</p>
                 </li>
               </ul>
@@ -50,10 +50,10 @@ const Body = () => (
             <div className="right-navbar-container">
               <h1 className="body-container-section-header">Right Navbar</h1>
               <ul className="body-container-section-list">
-                <li className="body-container-section-ad-list-item">
+                <li key="Ad 1" className="body-container-section-ad-list-item">
                   <p className="body-container-section-text">Ad 1</p>
                 </li>
-                <li className="body-container-section-ad-list-item">
+                <li key="Ad 2" className="body-container-section-ad-list-item">
                   <p className="body-container-section-text">Ad 2</p>
                 </li>
               </ul>
