@@ -48,7 +48,9 @@ const Body = () => (
 
           {showRightNavbar && (
             <div className="right-navbar-container">
-              <h1 className="body-container-section-header">Right Navbar</h1>
+              <h1 className="body-container-section-header">
+                Right Navbar Menu
+              </h1>
               <ul className="body-container-section-list">
                 <li key="Ad 1" className="body-container-section-ad-list-item">
                   <p className="body-container-section-ad-text">Ad 1</p>
